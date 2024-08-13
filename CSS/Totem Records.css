@@ -114,7 +114,7 @@ h2 {
 }
 
 /*inicio de nosotros*/
-.historia p{
+.historia p {
     font-size: 12px;
 }
 
@@ -144,7 +144,7 @@ h2 {
     margin: 0;
     font-weight: normal;
     color: black;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .Persona h5 {
@@ -162,3 +162,92 @@ h2 {
     font-size: 10px;
     font-style: italic;
 }
+
+/*inicio de servicios*/
+.servicios {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.servicios .info h4 {
+    color: black;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.servicios .info p {
+    font-size: 13px;
+}
+
+.servicios img {
+    border-radius: 13px;
+    display: block;
+    max-width: 225px;
+}
+
+.servicios:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+/*fin de servicios*/
+
+/*inicio de contacto*/
+
+.contacto{
+    display:flex ;
+    gap: 24px;
+}
+.contacto div{
+    width: 100%;
+}
+.datos p{
+    font-size: 14px;
+}
+.datos ul li{
+    font-size: 13px;
+    
+}
+.formulario p{
+            display: flex;
+}
+.formulario p label{
+    min-width: 80px;
+}
+.formulario p label{
+    display: flex;
+    align-items: center;
+}
+.formulario p:nth-child(4){
+    align-items: start;
+}
+.formulario textarea{
+    resize: none;
+    height: 150px;
+}
+.formulario input[type="submit"]{
+    background: rgb(0, 197, 154);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+}
+.formulario input[type="submit"]:hover{
+    background-color: black;
+}
+
+
+
+
+
+/*fin de contacto*/
